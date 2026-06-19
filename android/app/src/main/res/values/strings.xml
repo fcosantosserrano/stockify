@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Stocklfy</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_editar_perfil">EditarPerfilActivity</string>
+    <string name="title_activity_cambiar_password">CambiarPassword</string>
+    <string name="title_activity_añadir_inventario">AñadirInventarioActivity</string>
+    <string name="title_activity_lector_tickets">LectorTicketsActivity</string>
+    <string name="title_activity_pantalla_inventario">PantallaInventarioActivity</string>
+    <string name="title_activity_categoria_inventario">CategoriaInventarioActivity</string>
+    <string name="title_activity_pantalla_todos_productos">PantallaTodosProductosActivity</string>
+    <string name="title_activity_pantalla_caducidad_activity.kt">PantallaCaducidadActivity.kt
+    </string>
+    <string name="title_activity_editar_producto">EditarProductoActivity</string>
+    <string name="title_activity_pantalla_caducados">PantallaCaducadosActivity</string>
+    <string name="title_activity_pantalla_buscar_producto">PantallaBuscarProductoActivity</string>
+    <string name="title_activity_pantalla_bienvenida">PantallaBienvenida</string>
+    <string name="title_activity_agregar_producto_codigo_barras">AgregarProductoCodigoBarras
+    </string>
+    <string name="title_activity_escaner_codigo_barras">EscanerCodigoBarrasActivity</string>
+</resources>

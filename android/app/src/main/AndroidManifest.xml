@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stocklfy">
+        <activity
+            android:name=".home.compras.funcionalidades.EscanerCodigoBarrasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_escaner_codigo_barras"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.compras.funcionalidades.AgregarProductoCodigoBarras"
+            android:exported="false"
+            android:label="@string/title_activity_agregar_producto_codigo_barras"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.funcionalidades.PantallaBuscarProductoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pantalla_buscar_producto"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.EditarProductoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_editar_producto"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.funcionalidades.PantallaCaducadosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pantalla_caducados"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.funcionalidades.PantallaCaducidadActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pantalla_caducidad_activity.kt"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.CategoriaInventarioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_categoria_inventario"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.inventario.PantallaTodosProductosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pantalla_inventario"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.compras.funcionalidades.LectorTicketsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lector_tickets"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.compras.funcionalidades.AgregarProductoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_añadir_inventario"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.perfil.Funcionalidades.CambiarPasswordActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cambiar_password"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.perfil.Funcionalidades.EditarPerfilActivity"
+            android:exported="false"
+            android:label="@string/title_activity_editar_perfil"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Stocklfy" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Stocklfy.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
